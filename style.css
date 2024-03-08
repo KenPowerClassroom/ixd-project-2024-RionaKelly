@@ -1,0 +1,9 @@
+html * {
+  display:flex;
+  line-height: 1.5;
+  font-family: Nunito, sans-serif;
+}
+
+#nav{
+    min-width: 200px;
+}
