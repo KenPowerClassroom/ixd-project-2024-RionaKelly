@@ -1,9 +1,23 @@
-html * {
+body {
   display:flex;
   line-height: 1.5;
   font-family: Nunito, sans-serif;
+  
 }
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 #nav{
-    min-width: 200px;
+    min-width: 130px;
+    min-height: 30px;
+    text-decoration: none;
+    background-color: #c0c0c0;
+    color: #000000;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #dddddd;
 }
